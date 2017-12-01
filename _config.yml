@@ -2,4 +2,4 @@ name: Benjamin Steel
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
