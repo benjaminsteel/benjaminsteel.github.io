@@ -479,6 +479,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+.home-cta {
+  font-size: 28px;
+  display: block;
+  background: white;
+  text-align: center; }
+
 .home-wrap {
   background: white; }
   .home-wrap header {
