@@ -1,10 +1,10 @@
 mixin nav-content()
     ul
-        li: a(href="about") A B O U T
-        li: a(href="art") A R T
-        li: a(href="music") M U S I C
-        li: a(href="photography") P H O T O G R A P H Y
-        li: a(href="writing") P R O S E  &  V E R S E
+        li: a(href="#about") A B O U T
+        li: a(href="#art") A R T
+        li: a(href="#music") M U S I C
+        li: a(href="#photography") P H O T O G R A P H Y
+        li: a(href="#writing") P R O S E  &  V E R S E
 
 .mobile-nav
     +nav-content()
@@ -12,12 +12,14 @@ mixin nav-content()
 header
     .header-position
         h1.logo B E N J A M I N S T E E L // e x p r e s s i o n s
-
         nav.site-nav
             +nav-content()
 
 
-        a(href:"mailto:benjamings@rogers.com").email-link W R I T E M E
+        p.email-link 
+            |W R I T E 
+            br
+            |M E @ ///benjamings@rogers.com///
         
         .mobile-nav-toggle: span
             
