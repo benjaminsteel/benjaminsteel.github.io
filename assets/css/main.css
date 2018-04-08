@@ -674,6 +674,19 @@ section.youtube .art-3 {
   -webkit-background-size: 100% 100%;
           background-size: 100%; }
 
+section.youtube .art-4 {
+  position: relative;
+  top: 300px;
+  margin: -225px 0;
+  width: 1;
+  height: -webkit-calc(100% + 300px);
+  height: calc(100% + 300px);
+  background-image: url(../img/painting2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%; }
+
 section.music .music-1 {
   z-index: 3;
   position: relative;
@@ -827,6 +840,21 @@ section.columns .col-1 {
   section.columns .col-1 a {
     font-style: italic;
     color: red; }
+
+section.columns .col-2 {
+  position: relative;
+  top: 500px;
+  left: 70px;
+  z-index: 5; }
+  section.columns .col-2 p {
+    font-weight: bold; }
+  section.columns .col-2 a {
+    font-style: italic;
+    color: red; }
+  section.columns .col-2 p2 {
+    margin-left: 35px; }
+  section.columns .col-2 p3 {
+    margin-left: 70px; }
 
 .home-wrap {
   display: -webkit-box;
